@@ -22,8 +22,8 @@ G2L["2"] = Instance.new("Frame", G2L["1"]);
 G2L["2"]["Visible"] = false;
 G2L["2"]["BorderSizePixel"] = 0;
 G2L["2"]["BackgroundColor3"] = Color3.fromRGB(30, 30, 30);
-G2L["2"]["Size"] = UDim2.new(0, 350, 0, 250);
-G2L["2"]["Position"] = UDim2.new(0.23531, 0, 0.16525, 0);
+G2L["2"]["Size"] = UDim2.new(0, 349, 0, 250);
+G2L["2"]["Position"] = UDim2.new(0.23531, 0, 0.16258, 0);
 G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 
@@ -40,7 +40,7 @@ G2L["4"]["TextSize"] = 20;
 G2L["4"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["4"]["BackgroundTransparency"] = 1;
-G2L["4"]["Size"] = UDim2.new(0, 213, 0, 34);
+G2L["4"]["Size"] = UDim2.new(0, 212, 0, 34);
 G2L["4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["4"]["Text"] = [[Micro Executor | BETA]];
 
@@ -56,7 +56,7 @@ G2L["5"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["5"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46);
 G2L["5"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["5"]["PlaceholderText"] = [[--- Micro Executor | BETA]];
-G2L["5"]["Size"] = UDim2.new(0, 350, 0, 180);
+G2L["5"]["Size"] = UDim2.new(0, 349, 0, 180);
 G2L["5"]["Position"] = UDim2.new(0, 0, 0.136, 0);
 G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["5"]["Text"] = [[]];
@@ -69,10 +69,10 @@ G2L["6"]["TextSize"] = 16;
 G2L["6"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["6"]["BackgroundColor3"] = Color3.fromRGB(86, 255, 128);
 G2L["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["6"]["Size"] = UDim2.new(0, 121, 0, 22);
+G2L["6"]["Size"] = UDim2.new(0, 120, 0, 22);
 G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["6"]["Text"] = [[Execute]];
-G2L["6"]["Position"] = UDim2.new(0.01714, 0, 0.884, 0);
+G2L["6"]["Position"] = UDim2.new(0.01429, 0, 0.884, 0);
 
 
 -- StarterGui.ScreenGui.Frame.TextButton.UICorner
@@ -92,7 +92,7 @@ G2L["9"]["TextSize"] = 16;
 G2L["9"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["9"]["BackgroundColor3"] = Color3.fromRGB(255, 103, 106);
 G2L["9"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["9"]["Size"] = UDim2.new(0, 121, 0, 22);
+G2L["9"]["Size"] = UDim2.new(0, 120, 0, 22);
 G2L["9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["9"]["Text"] = [[Clear]];
 G2L["9"]["Position"] = UDim2.new(0.38286, 0, 0.884, 0);
@@ -120,10 +120,10 @@ G2L["d"]["TextSize"] = 16;
 G2L["d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["d"]["BackgroundColor3"] = Color3.fromRGB(171, 86, 255);
 G2L["d"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d"]["Size"] = UDim2.new(0, 81, 0, 22);
+G2L["d"]["Size"] = UDim2.new(0, 80, 0, 22);
 G2L["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["d"]["Text"] = [[Close]];
-G2L["d"]["Position"] = UDim2.new(0.74571, 0, 0.884, 0);
+G2L["d"]["Position"] = UDim2.new(0.74286, 0, 0.884, 0);
 
 
 -- StarterGui.ScreenGui.Frame.TextButton.UICorner
@@ -146,7 +146,7 @@ G2L["10"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], E
 G2L["10"]["Size"] = UDim2.new(0, 50, 0, 50);
 G2L["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["10"]["Text"] = [[Micro]];
-G2L["10"]["Position"] = UDim2.new(0.46163, 0, 0, 0);
+G2L["10"]["Position"] = UDim2.new(0.46013, 0, 0, 0);
 
 
 -- StarterGui.ScreenGui.TextButton.UICorner
@@ -198,7 +198,8 @@ local script = G2L["12"];
 	script.Parent.Draggable = true
 	
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
+		script.Parent.Parent.Frame.Visible = true
+		script.Parent.Visible = false
 	end)
 end;
 task.spawn(C_12);

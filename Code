@@ -51,6 +51,7 @@ G2L["5"]["CursorPosition"] = -1;
 G2L["5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["5"]["BorderSizePixel"] = 0;
 G2L["5"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["5"]["TextWrapped"] = true;
 G2L["5"]["TextSize"] = 15;
 G2L["5"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["5"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46);
